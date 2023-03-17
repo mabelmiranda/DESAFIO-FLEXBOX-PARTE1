@@ -1,0 +1,33 @@
+	.box {
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+			display: inline-block;
+			background-color: #ccc;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.box:hover {
+			background-color: #f00;
+			transform: rotate(360deg);
+		}
+
+		.box2:hover {
+			background-color: #0f0;
+			transform: scale(1.5);
+		}
+
+		.box3:hover {
+			background-color: #00f;
+			transform: translateX(100px);
+		}
+
+		.box4:hover {
+			background-color: #ff0;
+			transform: skewX(30deg);
+		}
+
+		.box5:hover {
+			background-color: #f0f;
+			transform: translateY(-50px) rotate(180deg) scale(1.2);
+		}

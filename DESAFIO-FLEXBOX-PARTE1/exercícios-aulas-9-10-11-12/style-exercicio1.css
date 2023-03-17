@@ -1,0 +1,290 @@
+
+
+/*aula 9*/
+.desafio1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: orange;
+  }
+  
+  #lista1 {
+    list-style-type: square;
+    color: #0000ff;
+    background-color: rgb(199, 176, 221);
+  }
+  
+  #lista2 {
+    list-style-type: circle;
+  color: #0000ff;
+  background-color: rgb(199, 176, 221);
+  }
+
+  /*aula 10*/
+  .square1{
+  border: solid 1px black;
+  display: inline-block;
+  font-size: 32px;
+  font-family: Arial;
+  width: 100px;
+  height: 110px;
+  overflow: hidden;
+  }
+
+  .square2{
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    width: 100px;
+    height: 110px;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+ 
+    }
+
+    .box {
+        width: 200px;
+        height: 100px;
+        border: 2px dotted black;
+        margin: 5px 8px;
+        padding: 6px 9px;
+        overflow: auto;
+      }
+
+      .paragrafo1{
+    
+        display: inline;
+        background-color: grey;
+      }
+
+      span {
+      
+        display: block;
+        background-color: yellow;
+      }
+
+      /* Aula 11 */
+      
+    .hover:hover {
+        color: red;
+      }
+      
+      .active:active {
+        background-color: yellow;
+      }
+      
+    .visited:visited {
+        color: green;
+      }
+      
+    .focus:focus {
+        border: 2px solid blue;
+      }
+      
+      button:hover {
+        background-color: blue;
+        color: white;
+      }
+      
+      button:active {
+        background-color: green;
+        color: white;
+      }
+      
+      button:focus {
+        outline: none;
+        box-shadow: 0 0 5px red;
+      }
+      
+      input:focus {
+        border: 2px solid orange;
+      }
+
+      .hover:hover{
+        color: red;
+      }
+      
+      .my-list li:first-child {
+        font-weight: bold;
+      }
+
+      .my-list2 li:last-child {
+        color: red;
+      }
+
+      .my-list3 li:nth-child(2n) {
+        background-color: #d19898;
+      }
+
+      .my-list4 li:first-of-type {
+        color: blue;
+      }
+
+      .my-list5 li:last-of-type {
+        font-size: 24px;
+      }
+
+      .my-list6 li:nth-of-type(odd) {
+        color: green;
+      }
+
+      .my-list7 li:not(:first-child) {
+        color: gray;
+      }
+      .my-checkbox:checked {
+        border: 1px solid green;
+      }
+      
+      .my-radio:checked {
+        background-color: yellow;
+      }
+
+      .my-input:disabled {
+        opacity: 0.5;
+      }
+      
+      .my-select:disabled {
+        background-color: #ccc;
+      }
+
+      .my-email1:valid {
+        border-color: green;
+      }
+      
+      .my-url1:valid {
+        border-color: blue;
+      }
+
+      .my-email2:invalid {
+        border-color: red;
+      }
+      
+      .my-url2:invalid:invalid {
+        border-color: orange;
+      }
+
+      .my-text:required {
+  border-color: purple;
+}
+
+.my-select:required {
+  border-color: pink;
+}
+
+.my-paragraph::after {
+    content: " (exemplo)";
+    color: blue;
+  }
+
+  .my-header::before {
+    content: ">>";
+    color: red;}
+
+ .my-paragraph2::first-letter {
+    font-size: 400%; 
+    color: green;
+    }
+
+ .my-paragraph3::first-line {
+   font-weight: bold;
+   text-transform: uppercase;
+    }
+
+    .my-paragraph4::selection {
+        background-color: yellow;
+        color: black;
+      }
+
+      .my-list-mk li::marker {
+        font-weight: bold;
+        color: blue;
+      }
+      
+      
+ .my-input-digite::placeholder {
+    color: gray;
+    font-style: italic;
+  }
+
+  /*Aula 12*/
+
+  .gradient-vertical {
+    background: linear-gradient(to bottom, red, yellow);
+  }
+
+  .gradient-horizontal {
+    background: linear-gradient(to right, red, yellow);
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, red, yellow);
+  }
+    
+
+  .gradient-diagonal {
+    background: linear-gradient(45deg, red, yellow);
+    width:100px;
+    height:100px;
+  }
+
+  .gradient-radial {
+    background: radial-gradient(red, yellow);
+  }
+
+  .translate-square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translate(50px, 50px);
+    display:block;
+    
+  }
+
+  .rotate-square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(45deg);
+   
+  }
+
+  .rotateX-square {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transform: perspective(200px) rotateX(45deg);
+  }
+
+  .rotateY-square {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transform: perspective(200px) rotateY(45deg);
+  }
+
+  .rotateZ-square {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: perspective(200px) rotateZ(45deg);
+  }
+
+  .container {
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.item {
+	width: 100px;
+	height: 100px;
+	border: 1px dotted;
+	margin: 5px;
+}
+
